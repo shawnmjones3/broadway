@@ -44,19 +44,24 @@ p {
 	background-image: url("../images/the-flatiron-building.png");
 }
 
-.footer {
-	text-align: left;
+#copyright {
+	font-size: 11px;
+}
+
+footer {
 	background-color: dimgray;
 }
 
-.footer ul {
+footer ul {
+	text-align: left;
 	padding: 0 0;
 }
 
-.footer li a {
-	display: inline;
+footer ul li {
+	display: inline-block;
+	color: white;
 }
 
-#copyright {
-	font-size: 11px;
+footer ul li a {
+	color: white;
 }
